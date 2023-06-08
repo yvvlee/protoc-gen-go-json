@@ -1,0 +1,7 @@
+# General
+.DS_Store
+
+# ide
+.idea/*
+.fleet/*
+protoc-gen-go-json
