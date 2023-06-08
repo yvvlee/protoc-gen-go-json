@@ -31,7 +31,7 @@ func main() {
 			if len(f.Messages) == 0 {
 				continue
 			}
-			filename := f.GeneratedFilenamePrefix + ".json.go"
+			filename := f.GeneratedFilenamePrefix + ".pb.json.go"
 			file := plugin.NewGeneratedFile(filename, f.GoImportPath)
 			ApplyTemplate(file, f)
 		}
