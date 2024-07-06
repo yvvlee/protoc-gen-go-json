@@ -23,5 +23,5 @@ protoc --go_out=. --go-json_out=. request.proto
 - `DiscardUnknown={bool}` - unknown fields are ignored.
 
 ```sh
-protoc --go-json_out=enums_as_ints=true,emit_defaults=true:.
+protoc --go-json_out=UseEnumNumbers=true,EmitUnpopulated=true:.
 ```
